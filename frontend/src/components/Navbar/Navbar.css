@@ -1,5 +1,5 @@
 /* Navbar styling */
-.navbar {
+.navbar { 
     padding: 20px 0; /* Padding for the navbar */
     display: flex; /* Display as flexbox */
     justify-content: space-between; /* Align items with space between */
