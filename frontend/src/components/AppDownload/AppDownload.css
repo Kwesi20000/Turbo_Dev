@@ -1,25 +1,29 @@
-.app-download{
-    margin: auto auto;
-    margin-top: 100px;
-    font-size: max(3vw,20px);
-    text-align: center;
-    font-weight: 500;
+/* Styling for the app-download container */
+.app-download {
+    margin: auto auto; /* Centering the container horizontally */
+    margin-top: 100px; /* Adding top margin */
+    font-size: max(3vw, 20px); /* Responsive font size */
+    text-align: center; /* Aligning text to the center */
+    font-weight: 500; /* Setting font weight */
 }
 
-.app-download-platforms{
-    display: flex;
-    justify-content: center;
-    gap: max(2vw,10px);
-    margin-top: 40px;
+/* Styling for the app-download-platforms container */
+.app-download-platforms {
+    display: flex; /* Setting display to flex for horizontal alignment */
+    justify-content: center; /* Centering the items horizontally */
+    gap: max(2vw, 10px); /* Adding gap between items with a minimum value */
+    margin-top: 40px; /* Adding top margin */
 }
 
-.app-download-platforms img{
-    width: max(30vw,120px);
-    max-width: 180px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.app-download-platforms img:hover{
-    transform: scale(1.05);
+/* Styling for app-download-platforms images */
+.app-download-platforms img {
+    width: max(30vw, 120px); /* Responsive width */
+    max-width: 180px; /* Maximum width for larger screens */
+    transition: 0.5s; /* Adding transition effect */
+    cursor: pointer; /* Setting cursor to pointer */
 }
 
+/* Hover effect for app-download-platforms images */
+.app-download-platforms img:hover {
+    transform: scale(1.05); /* Increasing scale on hover */
+}
