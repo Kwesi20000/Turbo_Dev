@@ -1,60 +1,67 @@
+/* Styling for the main header container */
 .header{
-    height: 34vw;
-    margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
-    position: relative;
-
+    height: 34vw; /* Set the height of the header */
+    margin: 30px auto; /* Center the header horizontally with top and bottom margins */
+    background: url('/header_img.png') no-repeat; /* Set background image */
+    background-size: contain; /* Ensure the background image fits within the container */
+    position: relative; /* Positioning context for absolute positioning of child elements */
 }
 
+/* Styling for the content within the header */
 .header-content{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1.5vw;
-    max-width: 50%;
-    bottom: 10%;
-    left: 6vw;
-    animation: fadeIn 3s;
+    position: absolute; /* Position content absolutely within the header */
+    display: flex; /* Display content as a flex container */
+    flex-direction: column; /* Arrange content vertically */
+    align-items: start; /* Align content to the start of the container */
+    gap: 1.5vw; /* Set the gap between child elements */
+    max-width: 50%; /* Limit the maximum width of the content */
+    bottom: 10%; /* Position content 10% from the bottom */
+    left: 6vw; /* Position content 6% from the left */
+    animation: fadeIn 3s; /* Apply fadeIn animation with a duration of 3 seconds */
 }
 
+/* Styling for the heading within the header */
 .header-content h2{
-    font-weight: 500;
-    color: white;
-    font-size: max(4.5vw,22px);
+    font-weight: 500; /* Set font weight to bold */
+    color: white; /* Set text color to white */
+    font-size: max(4.5vw,22px); /* Set font size based on viewport width */
 }
 
+/* Styling for the paragraph within the header */
 .header-content p{
-    color: white;
-    font-size: 1vw;
+    color: white; /* Set text color to white */
+    font-size: 1vw; /* Set font size based on viewport width */
 }
 
+/* Styling for the button within the header */
 .header-content button{
-    border: none;
-    color: #747474;
-    font-weight: 500;
-    padding: 1vw 2.3vw;
-    background-color: white;
-    font-size: max(1vw,13px);
-    border-radius: 50px;
+    border: none; /* Remove border */
+    color: #747474; /* Set text color */
+    font-weight: 500; /* Set font weight */
+    padding: 1vw 2.3vw; /* Set padding */
+    background-color: white; /* Set background color */
+    font-size: max(1vw,13px); /* Set font size based on viewport width */
+    border-radius: 50px; /* Add border radius */
 }
 
+/* Media query for smaller screens */
 @media (max-width:1050px){
     .header-content{
-        max-width: 45%;
+        max-width: 45%; /* Adjust maximum width */
     }
 }
+
+/* Media query for even smaller screens */
 @media (max-width:750px){
     .header-content{
-        max-width: 65%;
+        max-width: 65%; /* Adjust maximum width */
     }
 
     .header-content p{
-        display: none;
+        display: none; /* Hide paragraph */
     }
 
     .header-content button{
-        padding: 2vw 4vw;
+        padding: 2vw 4vw; /* Adjust button padding */
     }
 }
