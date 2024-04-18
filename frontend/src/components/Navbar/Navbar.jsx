@@ -1,5 +1,5 @@
 // Importing CSS file for Navbar styling
-import "./Navbar.css";
+import "./Navbar.css"; 
 
 // Importing assets object from the assets module
 import { assets } from "../../assets/assets";
