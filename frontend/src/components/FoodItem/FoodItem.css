@@ -1,74 +1,74 @@
-.food-item{
-    width: 100%;
-    margin: auto;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px #00000015;
-    transition: 0.3s;
-    animation: fadeIn 1s;
+.food-item {
+  width: 100%; /* Set the width to 100% */
+  margin: auto; /* Center the element horizontally */
+  border-radius: 15px; /* Add border-radius for rounded corners */
+  box-shadow: 0px 0px 10px #00000015; /* Add box shadow for depth effect */
+  transition: 0.3s; /* Smooth transition effect */
+  animation: fadeIn 1s; /* Animation for fade-in effect */
 }
 
-.food-item-image{
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
+.food-item-image {
+  width: 100%; /* Set the width of the image to 100% */
+  border-radius: 15px 15px 0px 0px; /* Add border-radius only to top corners */
 }
 
-.food-item-info{
-    padding: 20px;
+.food-item-info {
+  padding: 20px; /* Add padding to the info section */
 }
 
-.food-item-name-rating{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+.food-item-name-rating {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add margin bottom */
 }
 
-.food-item-name-rating p{
-    font-size: 20px;
-    font-weight: 500;
+.food-item-name-rating p {
+  font-size: 20px; /* Set font size */
+  font-weight: 500; /* Set font weight */
 }
 
-.food-item-name-rating img{
-    width: 70px;
+.food-item-name-rating img {
+  width: 70px; /* Set width for rating image */
 }
 
-.food-item-desc{
-    color: #676767;
-    font-size: 12px;
+.food-item-desc {
+  color: #676767; /* Set color for description */
+  font-size: 12px; /* Set font size for description */
 }
 
-.food-item-price{
-    color: tomato;
-    font-size: 22px;
-    font-weight: 500;
-    margin: 10px 0px;
+.food-item-price {
+  color: tomato; /* Set color for price */
+  font-size: 22px; /* Set font size for price */
+  font-weight: 500; /* Set font weight for price */
+  margin: 10px 0px; /* Add margin top and bottom */
 }
 
-.food-item-img-container{
-    position: relative;
+.food-item-img-container {
+  position: relative; /* Set position to relative */
 }
 
-.food-item-img-container .add{
-    width: 35px;
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
-    border-radius: 50%;
+.food-item-img-container .add {
+  width: 35px; /* Set width for add icon */
+  position: absolute; /* Position absolutely */
+  bottom: 15px; /* Align to bottom */
+  right: 15px; /* Align to right */
+  cursor: pointer; /* Set cursor to pointer */
+  border-radius: 50%; /* Make the icon circular */
 }
 
-.food-item-counter{
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 6px;
-    border-radius: 50px;
-    background-color: white;
+.food-item-counter {
+  position: absolute; /* Position absolutely */
+  bottom: 15px; /* Align to bottom */
+  right: 15px; /* Align to right */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add gap between items */
+  padding: 6px; /* Add padding */
+  border-radius: 50px; /* Add border-radius for rounded shape */
+  background-color: white; /* Set background color */
 }
 
-.food-item-counter img{
-    width: 30px;
+.food-item-counter img {
+  width: 30px; /* Set width for icons */
 }
