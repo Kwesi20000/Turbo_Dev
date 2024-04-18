@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { food_list } from "../assets/assets";
+import { food_list } from "../assets/assets"; 
 
 // Create a context for storing global state
 export const StoreContext = createContext(null);
