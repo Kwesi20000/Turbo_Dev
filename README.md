@@ -8,7 +8,7 @@ Turbo is a platform designed to simplify errand outsourcing by connecting users 
 
 ### Links
 
-- [Deployed Site](https://www.turbofood.com)
+- https://kwesi20000.github.io/Turbo/
 - (https://www.medium.com/turbofood/final-project)](https://www.linkedin.com/pulse/project-turbo-your-personal-errand-assistant-hendricks-kumi-r0hsf/)
 - (https://www.linkedin.com/in/authorname)](http://www.linkedin.com/in/hok20)
 
