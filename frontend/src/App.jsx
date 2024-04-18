@@ -8,18 +8,25 @@ import { useState } from "react";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
 
 const App = () => {
-  const [showLogin,setshowLogin] = useState(false)
+  // State to control the display of the login popup
+  const [showLogin, setshowLogin] = useState(false);
+
   return (
     <>
-    {showLogin?<LoginPopup setshowLogin={setshowLogin}/>:<></>}
+      {/* Conditional rendering of the login popup */}
+      {showLogin ? <LoginPopup setshowLogin={setshowLogin} /> : <></>}
+      {/* Main application content */}
       <div className="app">
+        {/* Navbar component */}
         <Navbar setshowLogin={setshowLogin} />
+        {/* Routing for different pages */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
         </Routes>
       </div>
+      {/* Footer component */}
       <Footer />
     </>
   );
