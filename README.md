@@ -1,16 +1,16 @@
 # Project Name
 
-Turbo - Your Go-To Online Food Ordering Platform
+Turbo - Your Personal Errand Assistant
 
 ## Introduction
 
-Turbo is an online food ordering platform that allows users to browse through a wide selection of restaurants, cuisines, and dishes, and place orders conveniently from the comfort of their homes. Whether you're craving pizza, sushi, or a hearty burger, Turbo has got you covered.
+Turbo is a platform designed to simplify errand outsourcing by connecting users with reliable helpers. Whether it's grocery shopping, dry cleaning pickup, or pet sitting, Turbo aims to save users time and hassle. Turbo has got you covered.
 
 ### Links
 
 - [Deployed Site](https://www.turbofood.com)
-- [Final Project Blog Article](https://www.medium.com/turbofood/final-project)
-- [Author's LinkedIn](https://www.linkedin.com/in/authorname)
+- [[Final Project Blog Article](https://www.medium.com/turbofood/final-project)](https://www.linkedin.com/pulse/project-turbo-your-personal-errand-assistant-hendricks-kumi-r0hsf/)
+- [[Author's LinkedIn](https://www.linkedin.com/in/authorname)](http://www.linkedin.com/in/hok20)
 
 ## Installation
 
@@ -45,6 +45,6 @@ We welcome contributions from the community to help improve Turbo. To contribute
 
 Turbo is licensed under the [MIT License](LICENSE).
 
----
-
 ### Screenshots
+
+![Screenshot (11)](https://github.com/Kwesi20000/Turbo/assets/132357546/de82ea0f-1039-4712-ae33-d779aa72f466)
