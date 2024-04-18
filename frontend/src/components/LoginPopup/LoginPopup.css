@@ -1,4 +1,4 @@
-.login-popup{
+.login-popup{ 
     position: absolute; /* Positioning the popup absolutely */
     z-index: 1; /* Ensuring it appears on top of other elements */
     width: 100%; /* Full width of the screen */
