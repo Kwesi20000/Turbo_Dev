@@ -1,4 +1,4 @@
-import './Header.css' // Importing the CSS file for styling
+import './Header.css' // Importing the CSS file for styling 
 
 // Functional component for the header
 const Header = () => {
