@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   // Accessing context to get cart items and related functions
-  const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
+  const { cartItems, food_list, removeFromCart, getTotalCartAmount,url } = useContext(StoreContext);
 
   // Navigation hook for redirecting to another route
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Cart = () => {
             return (
               <div key={index}>
                 <div className="cart-items-title cart-items-item">
-                  <img src={item.image} alt="" />
+                  <img src={url+"/images/"+item.image} alt="" />
                   <p>{item.name}</p>
                   <p>${item.price}</p>
                   <p>{cartItems[item._id]}</p>

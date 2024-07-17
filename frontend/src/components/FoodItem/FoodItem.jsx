@@ -5,13 +5,13 @@ import { StoreContext } from '../../context/StoreContext'; // Importing StoreCon
 
 const FoodItem = ({ id, name, price, description, image }) => {
   // Destructuring cartItems, addToCart, and removeFromCart from StoreContext
-  const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
+  const { cartItems, addToCart, removeFromCart,url } = useContext(StoreContext);
 
   return (
     <div className="food-item">
       <div className="food-item-img-container">
         {/* Food item image */}
-        <img className='food-item-image' src={image} alt="" />
+        <img className='food-item-image' src={url+"/images/"+image} alt="" />
 
         {/* Conditional rendering for add/remove icons based on cartItems */}
         {!cartItems[id]
