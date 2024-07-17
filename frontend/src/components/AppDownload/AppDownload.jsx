@@ -1,17 +1,22 @@
-import React from 'react'
-import './AppDownload.css'
-import { assets } from '../../assets/assets'
+import React from 'react';
+import './AppDownload.css'; // Importing the CSS file for styling
+import { assets } from '../../assets/assets'; // Importing assets from the assets folder
 
+// AppDownload component
 const AppDownload = () => {
   return (
     <div className='app-download' id='app-download'>
-        <p>For Better Expereince Download <br />Turbo App</p>
-        <div className="app-download-platforms">
-            <img src={assets.play_store} alt="" />
-            <img src={assets.app_store} alt="" />
-        </div>
+      {/* Heading for app download */}
+      <p>For Better Experience Download <br />Turbo App</p>
+      {/* Container for app download platforms */}
+      <div className="app-download-platforms">
+        {/* Image for Google Play Store */}
+        <img src={assets.play_store} alt="" />
+        {/* Image for Apple App Store */}
+        <img src={assets.app_store} alt="" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default AppDownload
+export default AppDownload; // Exporting the component

@@ -1,16 +1,16 @@
-.food-display{
-    margin-top: 30px;
+.food-display {
+    margin-top: 30px; /* Add margin to the top of the food display */
 }
 
-.food-display h2{
-    font-size: max(2vw,24px);
-    font-weight: 600;
+.food-display h2 {
+    font-size: max(2vw, 24px); /* Set the font size of the heading with a minimum of 24px */
+    font-weight: 600; /* Set the font weight of the heading to 600 (semi-bold) */
 }
 
-.food-display-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-    margin-top: 30px;
-    gap: 30px;
-    row-gap: 60px;
+.food-display-list {
+    display: grid; /* Use CSS Grid layout for the food display list */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Set grid columns with a minimum width of 240px and maximum width of 1fr */
+    margin-top: 30px; /* Add margin to the top of the food display list */
+    gap: 30px; /* Set the gap between grid items */
+    row-gap: 60px; /* Set the vertical gap between grid rows */
 }

@@ -1,87 +1,100 @@
-.navbar{
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Navbar styling */
+.navbar { 
+    padding: 20px 0; /* Padding for the navbar */
+    display: flex; /* Display as flexbox */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center align items vertically */
 }
 
+<<<<<<< HEAD
 .navbar .logo{
     color: tomato;
     font-size: 30px;
+=======
+/* Logo styling */
+.navbar .logo {
+    width: 150px; /* Width of the logo */
+>>>>>>> 45742f11f3583cdd6683e37f28c5aa0148a466d0
 }
 
+/* Navbar menu styling */
 .navbar-menu {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: #49557e;
-    font-size: 18px;
+    display: flex; /* Display as flexbox */
+    list-style: none; /* Remove default list styling */
+    gap: 20px; /* Gap between menu items */
+    color: #49557e; /* Text color */
+    font-size: 18px; /* Font size */
 }
 
-.navbar-right{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+/* Navbar right section styling */
+.navbar-right {
+    display: flex; /* Display as flexbox */
+    align-items: center; /* Center align items vertically */
+    gap: 40px; /* Gap between items */
 }
 
-.navbar button{
-    background: transparent;
-    font-size: 16px;
-    color: #49557e;
-    border: 1px solid tomato;
-    padding: 10px 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.3s;
+/* Sign in button styling */
+.navbar button {
+    background: transparent; /* Transparent background */
+    font-size: 16px; /* Font size */
+    color: #49557e; /* Text color */
+    border: 1px solid tomato; /* Border */
+    padding: 10px 30px; /* Padding */
+    border-radius: 50px; /* Border radius */
+    cursor: pointer; /* Cursor pointer */
+    transition: 0.3s; /* Transition */
 }
 
-.navbar button:hover{
-    background-color: #fff4f2;
+/* Sign in button hover effect */
+.navbar button:hover {
+    background-color: #fff4f2; /* Background color on hover */
 }
 
-.navbar .active{
-    padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+/* Active menu item styling */
+.navbar .active {
+    padding-bottom: 2px; /* Bottom padding */
+    border-bottom: 2px solid #49557e; /* Border bottom */
 }
 
-.navbar li{
-    cursor: pointer;
+/* Menu item cursor pointer */
+.navbar li {
+    cursor: pointer; /* Cursor pointer */
 }
 
-.navbar-search-icon{
-    position: relative;
+/* Dot styling for indicating items in cart */
+.navbar-search-icon .dot {
+    position: absolute; /* Absolute position */
+    min-width: 10px; /* Minimum width */
+    min-height: 10px; /* Minimum height */
+    background-color: tomato; /* Background color */
+    border-radius: 5px; /* Border radius */
+    top: -8px; /* Top position */
+    right: -8px; /* Right position */
 }
 
-.navbar-search-icon .dot{
-    position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: tomato;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
-}
-
-@media (max-width:1050px) {
-    .navbar .logo{
-        width: 140px;
+/* Media query for smaller screens */
+@media (max-width: 1050px) {
+    .navbar .logo {
+        width: 140px; /* Adjusted width for smaller screens */
     }
-    .navbar-menu{
-        gap: 20px;
-        font-size: 17px;
+    .navbar-menu {
+        gap: 20px; /* Adjusted gap between menu items */
+        font-size: 17px; /* Adjusted font size */
     }
-    .navbar-right{
-        gap: 30px;
+    .navbar-right {
+        gap: 30px; /* Adjusted gap between items */
     }
-    .navbar-right img{
-        width: 22px;
+    .navbar-right img {
+        width: 22px; /* Adjusted width for images */
     }
-    .navbar-right button{
-        padding: 8px 25px;
+    .navbar-right button {
+        padding: 8px 25px; /* Adjusted padding for button */
     }
 }
-@media (max-width:750px) {
-    .navbar-menu{
-        display: none;
+
+/* Media query for even smaller screens */
+@media (max-width: 750px) {
+    .navbar-menu {
+        display: none; /* Hide navbar menu */
     }
 }
