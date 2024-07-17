@@ -3,9 +3,7 @@ import './list.css'
 import axios from 'axios'
 import {toast} from 'react-toastify'
 
-const list = () => {
-
-  const url = "http://localhost:4000"
+const list = ({url}) => {
   const [list,setList] = useState([]);
 
   const fetchList = async () => {
@@ -19,7 +17,14 @@ const list = () => {
   }
 
   const removeFood = async(foodId) => {
-    console.log(foodId);
+    const response = await axios.post(`${url}/api/food/remove`,{id:foodId});
+    await fetchList();
+    if (response.data.success) {
+      toast.success(response.data.message)
+    }
+    else {
+      toast.error("Error")
+    }
   }
 
   useEffect(()=>{
